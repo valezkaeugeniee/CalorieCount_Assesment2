@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KABATAKULATOR</string>
+    <string name="introCFC">kalkulator adalah alat untuk menghitung dari perhitungan sederhana seperti penjumlahan, pengurangan, perkalian dan pembagian</string>
+    <string name="angka1">Bilangan 1</string>
+    <string name="angka2">Bilangan 2</string>
+    <string name="Reset">C</string>
+    <string name="Tambah">+</string>
+    <string name="Kurang">-</string>
+    <string name="Kali">x</string>
+    <string name="Bagi">:</string>
+
+</resources>
