@@ -1,12 +1,42 @@
 <resources>
-    <string name="app_name">KABATAKULATOR</string>
-    <string name="introCFC">kalkulator adalah alat untuk menghitung dari perhitungan sederhana seperti penjumlahan, pengurangan, perkalian dan pembagian</string>
-    <string name="angka1">Bilangan 1</string>
-    <string name="angka2">Bilangan 2</string>
-    <string name="Reset">C</string>
-    <string name="Tambah">+</string>
-    <string name="Kurang">-</string>
-    <string name="Kali">x</string>
-    <string name="Bagi">:</string>
-
+    <string name="app_name">Aplikasi Kebutuhan Kalori</string>
+    <string name="edit_text_weight_hint">Masukkan berat badan (kg)</string>
+    <string name="edit_text_height_hint">Masukkan tinggi badan (cm)</string>
+    <string name="edit_text_age_hint">Masukkan usia</string>
+    <string name="radio_button_male">Laki-laki</string>
+    <string name="radio_button_female">Perempuan</string>
+    <string name="button_calculate">Hitung</string>
+    <string name="text_view_result">Kebutuhan Kalori:</string>
+    <string name="saran">Kebutuhan Kalori:</string>
+    <string name="lihat_saran">Lihat Saran</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="sarantxt">Saran</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+<string name="copyright">Ini adalah aplikasi untuk menghitung kalori manusia (Valezka Eugenie)</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
+    <string name="berat_validasi">Berat Tidak boleh kosong</string>
+    <string name="tinggi_validasi">Tinggi Tidak boleh kosong</string>
+    <string name="umur_validasi">Umur Tidak boleh kosong</string>
+    <string name="gender_validasi"> Pilih Gender </string>
+    <string name="hasil_kalori"> Calories: 0 </string>
+    <string name="kategori_hasil"> Kategori:  </string>
+    <string name="txtMale"> Pria </string>
+    <string name="txtFemale"> Wanita </string>
+    <string name="bagikan_tamplate"> Berat: %1$s kg\nTinggi: %2$s cm\nGender: %3$s kg\n\n%4$s\n%5$s </string>
+    <string name="kurang">Kekurangan</string>
+    <string name="cukup">Cukup</string>
+    <string name="kelebihan">Kelebihan</string>
+    <string name="kalori_x">Calorie: %1$.2f</string>
+    <string name="kategori_x">Kategori: %1$s</string>
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="judul_kurang">Mengatasi Kekurusan</string>
+    <string name="judul_cukup">Menjaga Tetap Ideal</string>
+    <string name="judul_kelebihan">Mengatasi Kegemukan</string>
+    <string name="saran_kurang">Cobalah untuk makan porsi besar, seperti burger
+berukuran raksasa ini.</string>
+    <string name="saran_cukup">Pertahankan gaya hidupmu! Tapi jangan kebanyakan
+gaya karena itu berbahaya.</string>
+    <string name="saran_kelebihan">Cobalah untuk olahraga lari. Kemanapun boleh,
+asal tidak lari dari kehidupan.</string>
 </resources>

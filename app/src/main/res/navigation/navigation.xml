@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/hitungFragment">
+    <fragment
+        android:id="@+id/hitungFragment"
+        android:name="org.d3if3062.mobpro1.ui.HitungFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_hitung">
+
+        <action
+            android:id="@+id/action_hitungFragment_to_saranFragment"
+            app:destination="@id/saranFragment" />
+
+        <action
+            android:id="@+id/action_hitungFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_hitungFragment_to_saranFragment"
+        app:destination="@id/saranFragment" />
+
+    <action
+        android:id="@+id/action_hitungFragment_to_aboutFragment"
+        app:destination="@id/aboutFragment" />
+
+    <action
+        android:id="@+id/action_hitungFragment_to_historiFragment"
+        app:destination="@id/historiFragment" />
+
+    <fragment
+        android:id="@+id/saranFragment"
+        android:name="org.d3if3062.mobpro1.ui.SaranFragment"
+        android:label="@string/sarantxt"
+        tools:layout="@layout/fragment_saran">
+        <fragment
+            android:id="@+id/aboutFragment"
+            android:name="org.d3if3062.mobpro1.ui.AboutFragment"
+            android:label="@string/tentang_aplikasi"
+            tools:layout="@layout/fragment_about"/>
+
+        <fragment
+            android:id="@+id/historiFragment"
+            android:name="com.d3if3062.mobpro1.ui.histori.HistoriFragment"
+            android:label="@string/histori"
+            tools:layout="@layout/fragment_histori" />
+
+
+        <action
+            android:id="@+id/action_hitungFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+
+        <argument
+            android:name="kategori"
+            app:argType="org.d3if3062.mobpro1.model.KategoriBmi" />
+        <action
+            android:id="@+id/action_saranFragment_to_hitungFragment"
+            app:destination="@id/hitungFragment" />
+        <action
+            android:id="@+id/action_saranFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_saranFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_saranFragment_to_aboutFragment2"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:label="@string/tentang_aplikasi"
+        tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if3062.mobpro1.ui.histori.HistoriFragment"
+        android:label="@string/histori"
+        tools:layout="@layout/fragment_histori" />
+
+
+
+</navigation>
