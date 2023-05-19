@@ -39,4 +39,9 @@ berukuran raksasa ini.</string>
 gaya karena itu berbahaya.</string>
     <string name="saran_kelebihan">Cobalah untuk olahraga lari. Kemanapun boleh,
 asal tidak lari dari kehidupan.</string>
+    <string name="konfirmasi_hapus">konfirmasi_hapus</string>
+    <string name="hapus">hapus</string>
+    <string name="batal">batal</string>
+    <string name="hasil_x">Calorie: %1$.2f - %2$s</string>
+    <string name="data_x">BB: %1$.1f - TB: %2$.1f - %3$s</string>
 </resources>

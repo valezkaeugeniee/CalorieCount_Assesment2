@@ -24,6 +24,6 @@ fun Calorie.CalorieCalculator(): HasilCalorie {
         }
     }
 
-    return HasilCalorie(hasilCalorie.toFloat(), kategori.toString())
+    return HasilCalorie(hasilCalorie.toFloat(), kategori)
 }
 

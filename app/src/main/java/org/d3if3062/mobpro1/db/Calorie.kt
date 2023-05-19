@@ -7,6 +7,7 @@ import androidx.room.PrimaryKey
 data class Calorie(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
+    var tanggal: Long  = System.currentTimeMillis(),
     val weight: Double,
     val height: Double,
     val age: Int,
