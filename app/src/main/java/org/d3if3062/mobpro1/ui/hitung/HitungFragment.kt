@@ -42,14 +42,15 @@ class HitungFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.buttonCalculate.setOnClickListener{calculateCalories()}
-        binding.saranButton.setOnClickListener{it.findNavController().navigate(
-            R.id.action_hitungFragment_to_saranFragment
-        )}
         binding.shareButton.setOnClickListener{shareData()}
-
         binding.saranButton.setOnClickListener{viewModel.mulaiNavigasi()}
 
-        viewModel.getHasilCalorie().observe(requireActivity(), {})
+        viewModel.getHasilCalorie().observe(requireActivity(), {showResult(it)})
+        viewModel.getNavigasi().observe(viewLifecycleOwner, {
+            if (it == null) return@observe
+            findNavController().navigate(HitungFragmentDirections.actionHitungFragmentToSaranFragment(it))
+            viewModel.selesaiNavigasi()
+        })
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -126,7 +127,7 @@ class HitungFragment: Fragment() {
         )
 
         val shareIntent = Intent(Intent.ACTION_SEND)
-
+        shareIntent.setType("text/plain").putExtra(Intent.EXTRA_TEXT, message)
         if (shareIntent.resolveActivity(
                 requireActivity().packageManager) != null) {
             startActivity(shareIntent)
@@ -137,7 +138,7 @@ class HitungFragment: Fragment() {
     private fun showResult(result: HasilCalorie?){
         if (result == null) return
 
-        binding.textViewResult.text = getString(R.string.kategori_x, result.hasil.toString())
+        binding.textViewResult.text = getString(R.string.kalori_x, result.hasil)
         binding.kategoriTextView.text = getString(R.string.kategori_x,
             getKategoriLabel(result.kategori))
         binding.buttonGroup.visibility = View.VISIBLE
