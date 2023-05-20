@@ -12,7 +12,7 @@
     <string name="bagikan">Bagikan</string>
     <string name="sarantxt">Saran</string>
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
-<string name="copyright">Ini adalah aplikasi untuk menghitung kalori manusia (Valezka Eugenie)</string>
+<string name="copyright">CalorieCounter adalah aplikasi penghitung kalori yang inovatif yang dirancang untuk membantu pengguna dalam mengelola asupan kalori mereka dan memberikan saran yang sesuai dengan kebutuhan individu. </string>
     <string name="belum_ada_data">Belum ada data</string>
     <string name="histori">Histori</string>
     <string name="berat_validasi">Berat Tidak boleh kosong</string>
@@ -30,15 +30,12 @@
     <string name="kalori_x">Calorie: %1$.2f</string>
     <string name="kategori_x">Kategori: %1$s</string>
     <string name="hapus_histori">Hapus Histori</string>
-    <string name="judul_kurang">Mengatasi Kekurusan</string>
-    <string name="judul_cukup">Menjaga Tetap Ideal</string>
-    <string name="judul_kelebihan">Mengatasi Kegemukan</string>
-    <string name="saran_kurang">Cobalah untuk makan porsi besar, seperti burger
-berukuran raksasa ini.</string>
-    <string name="saran_cukup">Pertahankan gaya hidupmu! Tapi jangan kebanyakan
-gaya karena itu berbahaya.</string>
-    <string name="saran_kelebihan">Cobalah untuk olahraga lari. Kemanapun boleh,
-asal tidak lari dari kehidupan.</string>
+    <string name="judul_kurang">Mengatasi Kekurangan</string>
+    <string name="judul_cukup">Pertahankan Ini</string>
+    <string name="judul_kelebihan">Mengatasi Kelebihan</string>
+    <string name="saran_kurang">Pilih makanan tinggi kalori tetapi sehat, seperti alpukat, kacang-kacangan, biji-bijian, dan minyak zaitun.</string>
+    <string name="saran_cukup">Pertahankan pola makan yang seimbang dengan memperhatikan asupan karbohidrat, protein, dan lemak yang tepat</string>
+    <string name="saran_kelebihan">Kurangi konsumsi makanan dan minuman yang tinggi kalori, seperti makanan olahan, makanan cepat saji, minuman manis, dan camilan tinggi gula.</string>
     <string name="konfirmasi_hapus">konfirmasi_hapus</string>
     <string name="hapus">hapus</string>
     <string name="batal">batal</string>
