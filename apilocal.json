@@ -1,7 +1,7 @@
 [
-    {"aktivitas": "Olahraga untuk membakar kalori", "deskripsi": "Lakukan jumping star", "imageId": "jumping star"},
-    {"aktivitas": "Olahraga untuk menjaga kalori tubuh", "deskripsi": "Lakukan plank", "imageId": "plank"},
-    {"aktivitas": "Olahraga untuk menjaga kalori tubuh", "deskripsi": "Lakukan sit up", "imageId": "sit up"},
-    {"aktivitas": "Olahraga untuk membakar kalori di dalam tubuh", "deskripsi": "Lakukan skipping", "imageId": "skipping"},
-    {"aktivitas": "Olahraga untuk menjaga kalori di dalam tubuh", "deskripsi": "Lakukan lari sprint", "imageId": "sprint"}
+    {"aktivitas": "Olahraga untuk membakar kalori", "deskripsi": "Lakukan jumping star", "imageId": "jumping star.jpg"},
+    {"aktivitas": "Olahraga untuk menjaga kalori tubuh", "deskripsi": "Lakukan plank", "imageId": "plank.jpg"},
+    {"aktivitas": "Olahraga untuk menjaga kalori tubuh", "deskripsi": "Lakukan sit up", "imageId": "sit up.jpg"},
+    {"aktivitas": "Olahraga untuk membakar kalori di dalam tubuh", "deskripsi": "Lakukan skipping", "imageId": "skipping.jpg"},
+    {"aktivitas": "Olahraga untuk menjaga kalori di dalam tubuh", "deskripsi": "Lakukan lari sprint", "imageId": "sprint.jpg"}
 ]
